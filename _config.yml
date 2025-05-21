@@ -3,7 +3,7 @@ title: 中国社会民族主义论坛
 description: 探讨中国社会发展的现实路径与意识形态分析
 baseurl: ""
 url: "https://daniek0617.github.io/zhongminlun"
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
