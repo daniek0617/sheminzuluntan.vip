@@ -1,11 +1,16 @@
+
 body {
-  font-family: "Arial", sans-serif;
-  padding: 2rem;
-  background-color: #fff;
-  color: #000;
+  font-family: "Noto Serif SC", serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
 }
-body.dark-mode {
-  background-color: #1c1c1c;
-  color: #eee;
+header, footer {
+  background-color: #6d071a;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
-a { color: #0645ad; }
+a {
+  color: #b00a0a;
+}
