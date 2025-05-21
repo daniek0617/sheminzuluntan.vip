@@ -1,24 +1,32 @@
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
   <head>
     <meta charset="UTF-8">
     <title>示例文章</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="/assets/js/main.js" defer></script>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>示例文章 | 中国社会民族主义论坛</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="示例文章" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="这是一篇示例文章，展示论坛文章发布功能。" />
+<meta property="og:description" content="这是一篇示例文章，展示论坛文章发布功能。" />
+<link rel="canonical" href="https://your-github-username.github.io/sheminzuluntan/2025/05/21/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html" />
+<meta property="og:url" content="https://your-github-username.github.io/sheminzuluntan/2025/05/21/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html" />
+<meta property="og:site_name" content="中国社会民族主义论坛" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-21T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="示例文章" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-21T00:00:00+00:00","datePublished":"2025-05-21T00:00:00+00:00","description":"这是一篇示例文章，展示论坛文章发布功能。","headline":"示例文章","mainEntityOfPage":{"@type":"WebPage","@id":"https://your-github-username.github.io/sheminzuluntan/2025/05/21/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html"},"url":"https://your-github-username.github.io/sheminzuluntan/2025/05/21/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html"}</script>
+<!-- End Jekyll SEO tag -->
+
   </head>
   <body>
-    <header>
-      <h1><a href="/">中国社会民族主义论坛</a></h1>
-      <nav>
-        <input type="text" id="search" placeholder="搜索...">
-        <button onclick="toggleDarkMode()">夜间模式</button>
-      </nav>
-    </header>
-
-    <main>
-      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <header><h1>中国社会民族主义论坛</h1></header>
+    <main><article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">示例文章</h1>
@@ -32,74 +40,7 @@
 
   </div><a class="u-url" href="/2025/05/21/%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html" hidden></a>
 </article>
-
-
-      <div>
-        <button onclick="likePost()">👍 点赞</button>
-        <span id="like-count">0</span> 次
-      </div>
-      <div>
-        阅读量：<span id="view-count">0</span>
-      </div>
-
-      <script src="https://unpkg.com/leancloud-storage/dist/av-min.js"></script>
-      <script>
-        const AV = window.AV;
-        AV.init({
-          appId: "U6Hl8X8k79tN3yiAcjo6L5ZJ-MdYXbMMI",
-          appKey: "ZxVxhraPILZtS26hzCzeVjE4",
-          serverURLs: "https://MdYXbMMI.api.lncldglobal.com"
-        });
-
-        const counterId = location.pathname;
-
-        function updateCounter(type) {
-          const Counter = AV.Object.extend("Counter");
-          const query = new AV.Query("Counter");
-          query.equalTo("url", counterId);
-          query.first().then((res) => {
-            if (res) {
-              if (type === "like") res.increment("likes");
-              else res.increment("views");
-              res.save().then(showCounts);
-            } else {
-              const newCounter = new Counter();
-              newCounter.set("url", counterId);
-              newCounter.set("likes", type === "like" ? 1 : 0);
-              newCounter.set("views", type === "like" ? 0 : 1);
-              newCounter.save().then(showCounts);
-            }
-          });
-        }
-
-        function showCounts(res) {
-          if (res) {
-            document.getElementById("like-count").innerText = res.get("likes");
-            document.getElementById("view-count").innerText = res.get("views");
-          }
-        }
-
-        function likePost() {
-          updateCounter("like");
-        }
-
-        updateCounter("view");
-      </script>
-
-      <script src="https://giscus.app/client.js"
-        data-repo="daniek0617/sheminzuluntan.vip"
-        data-repo-id="YOUR_REPO_ID"
-        data-category="Announcements"
-        data-category-id="YOUR_CATEGORY_ID"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-      </script>
-    </main>
+</main>
+    <footer>© 2025 中国社会民族主义论坛</footer>
   </body>
 </html>
