@@ -10,6 +10,7 @@ gem "webrick"
 group :jekyll_plugins do
   gem "jekyll-include-cache" # 用于缓存 include，提高构建效率
   gem "jekyll-feed"          # 自动生成 RSS feed
+  gem "jekyll-seo-tag"
 end
 
 # 注意：不要使用 github-pages，因为它会锁定 Jekyll 到旧版本
