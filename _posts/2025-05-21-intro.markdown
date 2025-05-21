@@ -1,0 +1,11 @@
+---
+title: "社会民族主义的基本特征"
+date: 2025-05-21
+categories: [社会民族主义介绍]
+tags: [理论, 意识形态]
+layout: single
+author_profile: true
+comments: true
+---
+
+社会民族主义是一个描述当前中国社会现实性质的理论框架，具有复杂的经济、政治与文化特征。
