@@ -1,9 +1,0 @@
----
-title: "欢迎来到中国社会民族主义论坛"
-date: 2025-05-21
-layout: single
-author_profile: true
-excerpt: "这是你的第一篇文章。"
----
-
-你可以开始在 `_posts` 文件夹中撰写新的文章。
