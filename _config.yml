@@ -1,34 +1,22 @@
-
 title: 中国社会民族主义论坛
-email: your-email@example.com
-description: >- # 此处可填写论坛简介
-  一个致力于讨论中国社会民族主义的论坛。
-baseurl: "" # 站点子路径，若部署到根目录可留空
-url: "https://daniek0617.github.io" # 部署网址
-
+description: 聚焦现实、批判修正、反对形式、追求真正服务人民的意识形态理论探讨。
+url: ""  # 部署后添加你的网址
+baseurl: ""
 theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-include-cache
 
-markdown: kramdown
-kramdown:
-  input: GFM
-
-collections:
-  posts:
-    output: true
-  categories:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "管理员"
-
-permalink: /:categories/:year/:month/:day/:title.html
+google_analytics: ""
+giscus:
+  repo: daniek0617/sheminzuluntan.vip
+  repo_id: YOUR_REPO_ID
+  category: Announcements
+  category_id: YOUR_CATEGORY_ID
+  mapping: pathname
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: light
+  lang: zh-CN
