@@ -1,0 +1,30 @@
+
+/* 红黑配色主题样式 */
+:root {
+  --main-bg-color: #111111;
+  --main-text-color: #f0f0f0;
+  --brand-color: #e63946;
+  --link-color: #e63946;
+  --link-hover-color: #ffffff;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.btn, .btn-primary {
+  background-color: var(--brand-color);
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.post-tags .tag {
+  background-color: #e63946;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.85rem;
+}
